@@ -1,11 +1,78 @@
-.my-beautiful-extension {
-  transform: rotate(180deg);
-  border: 10px red solid;
+/*sto definendo gli stati per le immagini*/
+.my-beautiful-extension .FFVAD {
+	opacity: 0;
+}
+.my-beautiful-extension .FFVAD:hover {
+	opacity: 1;
+}
+/* ho definito gli stati delle immagini*/
+
+
+/*testo Alt delle immagini*/
+.my-beautiful-extension .textProcessed{
+	color: black!important;
+	font-size: 45px;
+	line-height: 50px;
+	position: absolute;
+	left: 20px;
+	right: 20px;
+	top: 70px;
+	bottom: auto;
+	z-index:0;
 }
 
-.my-beautiful-extension .rep-main-logo {
-  transform: rotate(180deg) !important;
+.my-beautiful-extension .eLAPa:hover .textProcessed{
+	font-size: 1px;
+	display:none;
+
+
 }
+
+.textProcessed{
+	color: transparent;
+}
+
+.my-beautiful-extension ._9AhH0{
+	pointer-events:none;
+}
+/*ok*/
+
+.my-beautiful-extension .C4VMK span{
+	font-size: 40px;
+	line-height: 42px;
+
+}
+
+
+
+/*qui tolgo un pò di elementi dall'interfaccia
+come le storie
+i suggerimenti
+i like ai post
+*/
+
+.my-beautiful-extension .Nm9Fw{ /*like ai post*/
+	display: none;
+}
+
+
+.my-beautiful-extension .iHqQ7{
+	display: none;
+}
+
+.my-beautiful-extension ._49XvD{
+	display: none;
+}
+
+.my-beautiful-extension .uxKLF{
+	display: none;
+}
+
+
+.my-beautiful-extension .mOBkM{/*foto like più logo header*/
+	display:none;
+}
+
 
 /* .my-beautiful-extension .logoRotated {
   transform: rotate(180deg) !important;

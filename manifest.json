@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "my extension name",
-  "description": "My extension description!",
+  "name": "Textgram",
+  "description": "Textgram è un’estensione per Mozilla Firefox. Agisce nascondendo le immagini dei post di Instagram e mostrando al loro posto la descrizione che l’algoritmo di Instagram assegna automaticamente ad esse. Inoltre passando col cursore sul post sarà visibile l’immagine rendendo quindi l’automatismo nella lettura delle immagini un processo stratificato. In questo modo viene destrutturato un social pensato per mettere in evidenza le immagini al di sopra dei testi creando un maggiore attrito durante la fruizione e svelandone un funzionamento nascosto.",
   "version": "1.0",
-  "homepage_url": "https://github.com/calibro/browser-extension-boileplate",
+  "homepage_url": "https://carlobramanti.github.io/textgram/",
   "icons": {
     "19": "icons/icon-19.png",
     "38": "icons/icon-38.png",
